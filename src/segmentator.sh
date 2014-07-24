@@ -294,9 +294,6 @@ CUSTOMER_ORDER_IDS=${CUSTOMER_ORDER_IDS:1:${#CUSTOMER_ORDER_IDS}}
 
 CUSTOMER_ORDER_METADATA_TABLES="
 enterprise_sales_order_grid_archive
-sales_flat_creditmemo
-sales_flat_creditmemo_grid
-sales_flat_invoice_grid
 sales_flat_order
 sales_flat_order_grid
 sales_flat_shipment_grid
@@ -310,7 +307,13 @@ done
 CUSTOMER_ORDER_METADATA_TABLES="
 sales_order_tax
 sales_flat_order_item
+sales_flat_invoice_grid
+sales_flat_creditmemo
+sales_flat_creditmemo_grid
 sales_recurring_profile_order
+enterprise_sales_invoice_grid_archive
+enterprise_sales_creditmemo_grid_archive
+enterprise_sales_shipment_grid_archive
 "
 
 for TABLE in $CUSTOMER_ORDER_METADATA_TABLES; do
