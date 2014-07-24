@@ -7,7 +7,7 @@ Currently script supports data retrieval via customer email patterns and/or back
 
 Tested against Magento EE 1.1x.x.
 
-Requirments
+Requirements
 -----
 Out of the box the script needs to be executed on the same server that hosts your Magento database.
 
